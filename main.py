@@ -321,8 +321,7 @@ else:
     <span class="s2">return </span><span class="s1">bool(re.match(</span><span class="s4">&quot;^[A-Za-z ]+$&quot;</span><span class="s2">, </span><span class="s1">name))</span>
 
 <span class="s2">def </span><span class="s1">validate_email(email):</span>
-    <span class="s2">return </span><span class="s1">bool(re.match(</span><span class="s4">r&quot;^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$&quot;</span><span class="s2">, </span><span class="s1">email))</span>
-
+return bool(re.match(r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", email))
 <span class="s2">def </span><span class="s1">validate_phone(phone):</span>
     <span class="s2">return </span><span class="s1">phone.isdigit() </span><span class="s2">and </span><span class="s5">10 </span><span class="s1">&lt;= len(phone) &lt;= </span><span class="s5">15</span>
 
