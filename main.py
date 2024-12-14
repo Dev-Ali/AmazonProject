@@ -377,8 +377,8 @@ return bool(re.match(r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", email)
             <span class="s4">&quot;&quot;&quot; 
             &lt;div style='background-color: #FF9900; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;'&gt; 
                 &lt;h1 style='color: black; text-align: center; font-size: 50px;'&gt;AMAZON PRODUCT RESEARCH&lt;/h1&gt; 
-                &lt;h2 style='color: black; text-align: center; font-size: 30px;'&gt;MERRY CHRISTMAS 🎄&lt;/h2&gt; 
-            &lt;/div&gt; 
+<h2 style='color: black; text-align: center; font-size: 30px;'>MERRY CHRISTMAS 🎄</h2>
+&lt;/div&gt; 
             &quot;&quot;&quot;</span><span class="s2">,</span>
             <span class="s1">unsafe_allow_html=</span><span class="s2">True,</span>
         <span class="s1">)</span>
